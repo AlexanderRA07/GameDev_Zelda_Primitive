@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,8 +12,8 @@ public class GameManager : MonoBehaviour
     public int currentHP;               // starts at 6 (3 full hearts)
 
     [Header("UI References")]
-    public Text heartDisplay;           // drag a UI Text here in Inspector
-    public Text statusText;             // "Defeat all enemies!" etc.
+    public TextMeshProUGUI heartDisplay;           // drag a UI Text here in Inspector
+    public TextMeshProUGUI statusText;             // "Defeat all enemies!" etc.
     public GameObject winPanel;         // panel shown on win
     public GameObject deadPanel;        // panel shown on death
 
