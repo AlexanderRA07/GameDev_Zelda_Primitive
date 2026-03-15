@@ -1,2 +1,21 @@
 fileFormatVersion: 2
 guid: f22600ea38af0e744b38f2d036a240bb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - musicSource: {instanceID: 0}
+  - deathMusic: {instanceID: 0}
+  - winMusic: {instanceID: 0}
+  - heartDisplay: {instanceID: 0}
+  - statusText: {instanceID: 0}
+  - winPanel: {instanceID: 0}
+  - deadPanel: {instanceID: 0}
+  - fullHeart: {fileID: 1564688358316481467, guid: b76707e437eda8e4f82ab6490143285a, type: 3}
+  - halfHeart: {fileID: -1962104430, guid: b76707e437eda8e4f82ab6490143285a, type: 3}
+  - emptyHeart: {fileID: 956394737, guid: b76707e437eda8e4f82ab6490143285a, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

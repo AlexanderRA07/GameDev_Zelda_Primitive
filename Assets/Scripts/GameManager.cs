@@ -13,8 +13,9 @@ public class GameManager : MonoBehaviour
     public AudioClip winMusic;
 
     [Header("Health")]
-    public int maxHearts = 3;           // each heart = 2 HP
-    public int currentHP;               // starts at 6 (3 full hearts)
+    public int maxHearts = 3;
+    public int currentHP;
+    public HeartUIController heartUI;   // assign in inspector
 
     [Header("UI References")]
     public TextMeshProUGUI heartDisplay;           // drag a UI Text here in Inspector
@@ -36,7 +37,8 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         currentHP = maxHearts * 2;
-        UpdateHeartUI();
+        if(heartUI != null)
+            heartUI.updateHearts(currentHP, maxHearts);
         if (winPanel)  winPanel.SetActive(false);
         if (deadPanel) deadPanel.SetActive(false);
     }
@@ -58,7 +60,9 @@ public class GameManager : MonoBehaviour
     {
         currentHP -= amount;
         currentHP = Mathf.Max(currentHP, 0);
-        UpdateHeartUI();
+        
+        if(heartUI != null)
+            heartUI.updateHearts(currentHP, maxHearts);
 
         if (currentHP <= 0) TriggerDeath();
     }
@@ -102,18 +106,5 @@ public class GameManager : MonoBehaviour
     {
         foreach (var door in FindObjectsByType<DoorController>(FindObjectsSortMode.None))
             door.Open();
-    }
-
-    // ── Heart display: ♥♥♡ style ──────────────────────────────────
-    void UpdateHeartUI()
-    {
-        if (heartDisplay == null) return;
-        int full  = currentHP / 2;
-        int half  = currentHP % 2;
-        int empty = maxHearts - full - half;
-        heartDisplay.text =
-            new string('♥', full) +
-            (half == 1 ? "♡" : "") +
-            new string('♡', empty);
     }
 }
