@@ -1,21 +1,23 @@
 using UnityEngine;
 
-// Attach this to the Sword child GameObject on the Player prefab.
-// The sword GameObject should have:
-//   - a SpriteRenderer (a simple white rectangle sprite is fine)
-//   - a BoxCollider2D set to IS TRIGGER = true
-
 public class Sword : MonoBehaviour
 {
     public int damage = 1;
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        // Hit an enemy
-        EnemyAI enemy = other.GetComponent<EnemyAI>();
-        if (enemy != null)
+        // 1. Check for Regular Enemies
+        if (other.TryGetComponent(out EnemyAI enemy))
         {
             enemy.TakeDamage(damage);
+            return; // Exit so we don't check other types
+        }
+
+        // 3. Check for Hornet
+        if (other.TryGetComponent(out Hornet hornet))
+        {
+            hornet.TakeDamage(damage);
+            return;
         }
     }
 }

@@ -27,5 +27,6 @@ public class DoorController : MonoBehaviour
     {
         if (col) col.enabled = false;         // player can now walk through
         if (sr)  sr.color    = openColor;
+
     }
 }

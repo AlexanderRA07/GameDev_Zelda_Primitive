@@ -3,6 +3,12 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
+    [Header("Bow & Arrow")]
+    public bool hasBow = false;        // Set by the chest
+    public GameObject arrowPrefab;     // Your arrow projectle
+    public float arrowCooldown = 0.5f;
+    float arrowTimer = 0f;
+
     [Header("Movement")]
     public float moveSpeed = 4f;
 
@@ -51,6 +57,8 @@ public class PlayerController : MonoBehaviour
         HandleInput();
         HandleAttackTimers();
         HandleIframes();
+
+        if (arrowTimer > 0) arrowTimer -= Time.deltaTime;
     }
 
     void FixedUpdate()
@@ -84,11 +92,16 @@ public class PlayerController : MonoBehaviour
             moveInput = Vector2.zero;
         }
 
-        // Attack input
+        // Bow Attack
         if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Z))
             && !isAttacking && cooldownTimer <= 0f)
         {
             StartAttack();
+        }
+
+        if (hasBow && Input.GetKeyDown(KeyCode.F) && arrowTimer <= 0f && !isAttacking)
+        {
+            ShootArrow();
         }
     }
 
@@ -164,6 +177,39 @@ public class PlayerController : MonoBehaviour
         {
             isInvincible = false;
             sr.enabled   = true;
+        }
+    }
+
+    void ShootArrow()
+    {
+        arrowTimer = arrowCooldown;
+        if (arrowPrefab == null) return;
+
+        // 1. Force facingDir to be a "pure" direction (Up, Down, Left, or Right)
+        Vector2 cleanDir = Vector2.zero;
+        float spriteRotation = 0f;
+
+        if (Mathf.Abs(facingDir.x) > Mathf.Abs(facingDir.y))
+        {
+            // Shooting Horizontally
+            cleanDir = new Vector2(Mathf.Sign(facingDir.x), 0);
+            spriteRotation = (cleanDir.x > 0) ? -90f : 90f; // Right is -90, Left is 90
+        }
+        else
+        {
+            // Shooting Vertically
+            cleanDir = new Vector2(0, Mathf.Sign(facingDir.y));
+            spriteRotation = (cleanDir.y > 0) ? 0f : 180f; // Up is 0, Down is 180
+        }
+
+        // 2. Spawn the arrow with the fixed rotation
+        GameObject arrow = Instantiate(arrowPrefab, transform.position, Quaternion.Euler(0, 0, spriteRotation));
+
+        // 3. Give it velocity directly so it doesn't drift
+        Rigidbody2D rb = arrow.GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            rb.linearVelocity = cleanDir * 12f; // 12 is the arrow speed
         }
     }
 }

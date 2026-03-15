@@ -3,20 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\assets\\scripts\\chesttrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chesttrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\assets\\scripts\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|c:\\users\\yoshi\\onedrive\\desktop\\cs 4700\\assignments\\assignment 3\\gamedev_zelda_primitive\\assets\\scripts\\doorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\doorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|c:\\users\\yoshi\\onedrive\\desktop\\cs 4700\\assignments\\assignment 3\\gamedev_zelda_primitive\\assets\\scripts\\bossroomtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bossroomtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\assets\\scripts\\bowchest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bowchest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|c:\\users\\yoshi\\onedrive\\desktop\\cs 4700\\assignments\\assignment 3\\gamedev_zelda_primitive\\assets\\scripts\\hornet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hornet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\assets\\scripts\\victorychest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\victorychest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\assets\\scripts\\arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\assets\\scripts\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\assets\\scripts\\bossmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bossmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Library\\PackageCache\\com.unity.ugui@bb329a87fcdc\\Runtime\\TMP\\TextMeshProUGUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@bb329a87fcdc\\Runtime\\TMP\\TextMeshProUGUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\assets\\scripts\\playerbow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerbow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\assets\\scripts\\doorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF55743-2B9D-1690-944F-74E7E23D08BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\doorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\KeyItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\KeyItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\LockedDoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LockedDoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,55 +78,217 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DoorController.cs",
-              "DocumentMoniker": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\DoorController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DoorController.cs",
-              "ToolTip": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\DoorController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DoorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "EnemyAI.cs",
+              "DocumentMoniker": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\EnemyAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAI.cs",
+              "ToolTip": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\EnemyAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyAI.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAMYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T06:47:59.709Z",
+              "WhenOpened": "2026-03-14T22:13:34.336Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ChestTrigger.cs",
-              "DocumentMoniker": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\ChestTrigger.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ChestTrigger.cs",
-              "ToolTip": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\ChestTrigger.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ChestTrigger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "BossRoomTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\BossRoomTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BossRoomTrigger.cs",
+              "ToolTip": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\BossRoomTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BossRoomTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T06:44:59.04Z",
+              "WhenOpened": "2026-03-15T00:09:30.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Arrow.cs",
+              "DocumentMoniker": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\Arrow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Arrow.cs",
+              "ToolTip": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\Arrow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Arrow.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwCcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T23:58:36.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Sword.cs",
+              "DocumentMoniker": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\Sword.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Sword.cs",
+              "ToolTip": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\Sword.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Sword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T23:55:16.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Hornet.cs",
+              "DocumentMoniker": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\Hornet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Hornet.cs",
+              "ToolTip": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\Hornet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Hornet.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAjwHUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T23:29:13.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlayerBow.cs",
+              "DocumentMoniker": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\PlayerBow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerBow.cs",
+              "ToolTip": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\PlayerBow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerBow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T22:41:05.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TextMeshProUGUI.cs",
+              "DocumentMoniker": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Library\\PackageCache\\com.unity.ugui@bb329a87fcdc\\Runtime\\TMP\\TextMeshProUGUI.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@bb329a87fcdc\\Runtime\\TMP\\TextMeshProUGUI.cs",
+              "ToolTip": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Library\\PackageCache\\com.unity.ugui@bb329a87fcdc\\Runtime\\TMP\\TextMeshProUGUI.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@bb329a87fcdc\\Runtime\\TMP\\TextMeshProUGUI.cs",
+              "ViewState": "AgIAAMsHAAAAAAAAAAArwOoHAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T22:37:49.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "BowChest.cs",
+              "DocumentMoniker": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\BowChest.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BowChest.cs",
+              "ToolTip": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\BowChest.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BowChest.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAIA2wDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T22:35:13.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerInventory.cs",
+              "DocumentMoniker": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\PlayerInventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInventory.cs",
+              "ToolTip": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\PlayerInventory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerInventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T22:34:45.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
+              "ToolTip": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T22:34:22.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DoorController.cs",
+              "DocumentMoniker": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\DoorController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DoorController.cs",
+              "ToolTip": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\DoorController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DoorController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA3wB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T06:47:59.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAmwAwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T05:06:22.351Z"
+              "WhenOpened": "2026-03-12T05:06:22.351Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "VictoryChest.cs",
+              "DocumentMoniker": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\VictoryChest.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VictoryChest.cs",
+              "ToolTip": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\VictoryChest.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VictoryChest.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T23:22:27.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BossManager.cs",
+              "DocumentMoniker": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\BossManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BossManager.cs",
+              "ToolTip": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\BossManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BossManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T23:20:50.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LockedDoor.cs",
+              "DocumentMoniker": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\LockedDoor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LockedDoor.cs",
+              "ToolTip": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\LockedDoor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LockedDoor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T22:43:42.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "KeyItem.cs",
+              "DocumentMoniker": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\KeyItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KeyItem.cs",
+              "ToolTip": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\KeyItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KeyItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T22:50:22.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\yoshi\\OneDrive\\Desktop\\CS 4700\\Assignments\\Assignment 3\\GameDev_Zelda_Primitive\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAArwF8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-11T21:13:42.232Z"
             }

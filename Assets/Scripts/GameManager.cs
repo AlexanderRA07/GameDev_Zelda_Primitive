@@ -7,6 +7,11 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
+    [Header("Audio")]
+    public AudioSource musicSource;
+    public AudioClip deathMusic;
+    public AudioClip winMusic;
+
     [Header("Health")]
     public int maxHearts = 3;           // each heart = 2 HP
     public int currentHP;               // starts at 6 (3 full hearts)
@@ -61,12 +66,26 @@ public class GameManager : MonoBehaviour
     // ── Called by ChestTrigger ─────────────────────────────────────
     public void TriggerWin()
     {
+        if (musicSource != null && winMusic != null)
+        {
+            musicSource.Stop();
+            musicSource.clip = winMusic;
+            musicSource.loop = true; // Let the victory music loop on the win screen
+            musicSource.Play();
+        }
         Time.timeScale = 0f;            // freeze the game
         if (winPanel) winPanel.SetActive(true);
     }
 
     public void TriggerDeath()
     {
+        if (musicSource != null && deathMusic != null)
+        {
+            musicSource.Stop();
+            musicSource.clip = deathMusic;
+            musicSource.loop = false; // Usually, death music plays once
+            musicSource.Play();
+        }
         Time.timeScale = 0f;
         if (deadPanel) deadPanel.SetActive(true);
     }

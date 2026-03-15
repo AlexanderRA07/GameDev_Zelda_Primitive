@@ -150,22 +150,23 @@ public class EnemyAI : MonoBehaviour
     // ── Wall bouncing (called by Unity physics) ───────────────────
     void OnCollisionEnter2D(Collision2D col)
     {
-        // If we hit a wall, pick a new direction
+        // The 'col.gameObject' is what we hit
         if (col.gameObject.CompareTag("Wall"))
+        {
             PickNewDirection();
+        }
     }
 
     // ── Player contact damage ──────────────────────────────────────
-    void OnCollisionStay2D(Collision2D col)
+    void OnTriggerStay2D(Collider2D other)
     {
-        if (col.gameObject.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
-            PlayerController pc = col.gameObject.GetComponent<PlayerController>();
+            PlayerController pc = other.GetComponent<PlayerController>();
             if (pc != null) pc.TakeDamage(contactDamage);
         }
     }
 
-    // ── Take damage (called by Sword.cs) ──────────────────────────
     public void TakeDamage(int amount)
     {
         if (isDead) return;
@@ -188,10 +189,11 @@ public class EnemyAI : MonoBehaviour
         if (flashTimer > 0f)
         {
             flashTimer -= Time.deltaTime;
-            sr.color = Color.white;
+            sr.enabled = (Mathf.FloorToInt(Time.time * 20f) % 2 == 0);
         }
         else
         {
+            sr.enabled = true;
             sr.color = baseColor;
         }
     }
