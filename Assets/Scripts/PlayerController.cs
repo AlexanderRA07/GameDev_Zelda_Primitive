@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     // ── Private state ─────────────────────────────────────────────
     Rigidbody2D rb;
     Vector2 moveInput;
-    Vector2 facingDir = Vector2.down;   // start facing down like NES Link
+    public Vector2 facingDir = Vector2.down;   // start facing down like NES Link
 
     bool isAttacking   = false;
     float attackTimer  = 0f;

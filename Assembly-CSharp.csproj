@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/EnemyAI.cs" />
     <Compile Include="Assets/Scripts/PlayerController.cs" />
+    <Compile Include="Assets/Scripts/Shield.cs" />
     <Compile Include="Assets/Scripts/DoorAndChest.cs" />
     <Compile Include="Assets/Scripts/Projectile.cs" />
     <Compile Include="Assets/Scripts/GameManager.cs" />
